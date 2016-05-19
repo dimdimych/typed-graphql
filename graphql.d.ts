@@ -1,4 +1,4 @@
-
+declare module "graphql" {
 // graphql.js
 
 export function graphql(
@@ -935,3 +935,4 @@ interface GraphQLSchemaConfig {
     directives?: Array<GraphQLDirective>;
 }
 
+}
